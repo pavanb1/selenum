@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.orghrm.testcases.HomePageTest">
+        <methods>
+          <include name="validateClickOnAddEntitlementsBtnTest"/>
+          <include name="SetUp"/>
+          <include name="validateClickOnLeaveLisBtnTest"/>
+          <include name="validateHClickOnLeaveBtnTest"/>
+          <include name="validateHomePageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="validateHomePageLogoTest"/>
+          <include name="validateHClickOnAdminBtnTest"/>
+        </methods>
+      </class> <!-- com.orghrm.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
